@@ -153,19 +153,26 @@ def build_vst_individual():
                         if not found_audio:
                             print(f"   [WARNING] Missing FLAC audio for sample: {s_base}")
 
-                    # 5. Execute sfutils compile
-                    try:
-                        cmd = ["sfutils", "compile", tmp_dir, output_sf2_path]
-                        result = subprocess.run(cmd, capture_output=True, text=True)
+                    # 5. Execute sfutils compile for both SF2 and SF3
+                    for ext in [".sf2", ".sf3"]:
+                        target_path = output_sf2_path.replace(".sf2", ext)
+                        try:
+                            cmd = ["sfutils", "compile", tmp_dir, target_path]
+                            
+                            # Add quality flag for SF3 if needed
+                            if ext == ".sf3":
+                                cmd += ["-q", str(os.environ.get("OGG_QUALITY", "0.8"))]
+
+                            result = subprocess.run(cmd, capture_output=True, text=True)
+                            
+                            if result.returncode == 0:
+                                print(f"   [SUCCESS] Saved to {target_path}")
+                            else:
+                                print(f"   [FAILED] {ext}: {result.stderr.strip()}")
                         
-                        if result.returncode == 0:
-                            print(f"   [SUCCESS] Saved to {output_sf2_path}")
-                        else:
-                            print(f"   [FAILED] {result.stderr.strip()}")
-                    
-                    except FileNotFoundError:
-                        print("   [ERROR] 'sfutils' command not found. Please ensure it is installed.")
-                        return 
+                        except FileNotFoundError:
+                            print("   [ERROR] 'sfutils' command not found.")
+                            return 
 
         except Exception as e:
             print(f"   [ERROR] Unexpected error processing {preset_path}: {str(e)}")

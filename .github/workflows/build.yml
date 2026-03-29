@@ -73,7 +73,24 @@ jobs:
           echo "SF2_EXP=${BASE_SF_NAME}-Expanded.sf2" >> $GITHUB_ENV
           echo "SF3_EXP=${BASE_SF_NAME}-Expanded.sf3" >> $GITHUB_ENV
 
-      # 1. Compile FFXIV Standard
+      # -----------------------------------------------------------------------
+      # 1. Build Individual VSTs (Must happen BEFORE Expanded merge)
+      # -----------------------------------------------------------------------
+      - name: "Build Individual VSTs"
+        run: |
+          # Set quality
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            export OGG_QUALITY="${{ github.event.inputs.ogg_quality }}"
+          else
+            export OGG_QUALITY="${{ env.DEFAULT_OGG_QUALITY }}"
+          fi
+          
+          echo "Building individual standalone VSTs (SF2 & SF3)..."
+          python build_vst.py
+
+      # -----------------------------------------------------------------------
+      # 2. Compile FFXIV Standard
+      # -----------------------------------------------------------------------
       - name: "Compile FFXIV Standard"
         run: |
           echo "Compiling Standard SF2..."
@@ -89,7 +106,9 @@ jobs:
           echo "Compiling Standard SF3..."
           sfutils compile . "${{ env.SF3_STD }}" -q $QUALITY
 
-      # 2. Prepare and Compile FFXIV Expanded
+      # -----------------------------------------------------------------------
+      # 3. Prepare and Compile FFXIV Expanded
+      # -----------------------------------------------------------------------
       - name: "Compile FFXIV Expanded"
         run: |
           # Merge custom content into main directories
@@ -118,6 +137,7 @@ jobs:
           path: |
             *.sf2
             *.sf3
+            build/vst/
 
       # [If Release] Upload to GitHub Release
       - name: "Upload to Release"
@@ -129,3 +149,4 @@ jobs:
             ${{ env.SF3_STD }}
             ${{ env.SF2_EXP }}
             ${{ env.SF3_EXP }}
+            build/vst/
