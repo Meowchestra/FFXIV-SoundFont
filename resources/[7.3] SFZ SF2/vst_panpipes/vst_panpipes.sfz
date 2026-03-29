@@ -1,0 +1,29 @@
+// panpipes
+
+<global>
+lokey=48 hikey=84
+
+<region>
+sample=076panflute.scd_0.wav
+pan=0.0
+lokey=72 hikey=84
+pitch_keycenter=72
+
+<region>
+sample=076panflute.scd_1.wav
+pan=0.0
+lokey=65 hikey=67
+pitch_keycenter=65
+
+<region>
+sample=076panflute.scd_2.wav
+pan=0.0
+lokey=48 hikey=64
+pitch_keycenter=60
+
+<region>
+sample=076panflute.scd_3.wav
+pan=0.0
+lokey=68 hikey=71
+pitch_keycenter=68
+

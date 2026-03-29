@@ -1,0 +1,41 @@
+// eg_powerchords
+// Converted from SF2 to SFZ by bash explode
+
+<control>
+default_path=vst_electricguitarpowerchords eg_powerchords Samples
+
+<global>
+ampeg_release=1000.033998526122
+lokey=48 hikey=84
+fileg_release=1000.033998526122
+
+<region>
+sample=vst_electricguitarpowerchords-eg_powerchords-eg_powerchords_0.wav
+pan=0.0
+lokey=48 hikey=56
+pitch_keycenter=53
+
+<region>
+sample=vst_electricguitarpowerchords-eg_powerchords-eg_powerchords_1.wav
+pan=0.0
+lokey=57 hikey=64
+pitch_keycenter=60
+
+<region>
+sample=vst_electricguitarpowerchords-eg_powerchords-eg_powerchords_2.wav
+pan=0.0
+lokey=65 hikey=69
+pitch_keycenter=65
+
+<region>
+sample=vst_electricguitarpowerchords-eg_powerchords-eg_powerchords_3.wav
+pan=0.0
+lokey=70 hikey=76
+pitch_keycenter=70
+
+<region>
+sample=vst_electricguitarpowerchords-eg_powerchords-eg_powerchords_4.wav
+pan=0.0
+lokey=77 hikey=84
+pitch_keycenter=77
+

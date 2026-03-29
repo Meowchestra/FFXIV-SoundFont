@@ -1,0 +1,164 @@
+ffmpeg -i 098bd.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 098bd.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 098bd.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 098bd.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 097bongo.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 097bongo.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 097bongo.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 043cello.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 043cello.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 043cello.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 043cello.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 043cello.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 072clarinet.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 072clarinet.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 072clarinet.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 072clarinet.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 072clarinet.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 100cymbal.scd.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 044contrabass.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 044contrabass.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 044contrabass.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 044contrabass.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 044contrabass.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 028cleanguitar.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 028cleanguitar.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 028cleanguitar.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 028cleanguitar.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 028cleanguitar.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 029muteguitar.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 029muteguitar.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 029muteguitar.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 029muteguitar.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 029muteguitar.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 029muteguitar.scd_5.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 029muteguitar.scd_6.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 029muteguitar.scd_7.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 029muteguitar.scd_8.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 029muteguitar.scd_9.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 030driveguitar.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 030driveguitar.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 030driveguitar.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 030driveguitar.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 030driveguitar.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 031powerguitar.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 031powerguitar.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 031powerguitar.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 031powerguitar.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 031powerguitar.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 032fxguitar.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 032fxguitar.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 032fxguitar.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 032fxguitar.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 032fxguitar.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 046pizzicato.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 046pizzicato.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 046pizzicato.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 046pizzicato.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 046pizzicato.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 046pizzicato.scd_5.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 046pizzicato.scd_6.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 046pizzicato.scd_7.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 073piccolo.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 073piccolo.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 073piccolo.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 073piccolo.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 073piccolo.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 074flute.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 074flute.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 074flute.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 074flute.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 074flute.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 074flute.scd_5.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 047harp.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 047harp.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 047harp.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 047harp.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 061frenchhorn.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 061frenchhorn.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 061frenchhorn.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 061frenchhorn.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 061frenchhorn.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 026steelguitar.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 026steelguitar.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 026steelguitar.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 026steelguitar.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 069oboe.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 069oboe.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 069oboe.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 069oboe.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 069oboe.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 076panflute.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 076panflute.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 076panflute.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 076panflute.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 001grandpiano.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 001grandpiano.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 001grandpiano.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 001grandpiano.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 001grandpiano.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 066altosax.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 066altosax.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 066altosax.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 066altosax.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 099snare.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 099snare.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 099snare.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 099snare.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 048timpani.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 048timpani.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 048timpani.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 058trombone.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 058trombone.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 058trombone.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 058trombone.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 058trombone.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 057trumpet.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 057trumpet.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 057trumpet.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 057trumpet.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 057trumpet.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 057trumpet.scd_5.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 059tuba.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 059tuba.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 059tuba.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 059tuba.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 059tuba.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 059tuba.scd_5.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 042viola.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 042viola.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 042viola.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 042viola.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 042viola.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+
+ffmpeg -i 041violin.scd_0.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 041violin.scd_1.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 041violin.scd_2.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 041violin.scd_3.wav -af silencedetect=n=-45dB:d=0.001 -f null -
+ffmpeg -i 041violin.scd_4.wav -af silencedetect=n=-45dB:d=0.001 -f null -

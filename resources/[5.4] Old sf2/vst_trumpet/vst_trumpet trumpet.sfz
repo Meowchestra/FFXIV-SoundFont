@@ -1,0 +1,47 @@
+// trumpet
+// Converted from SF2 to SFZ by bash explode
+
+<control>
+default_path=vst_trumpet trumpet Samples
+
+<global>
+ampeg_release=1000.033998526122
+lokey=48 hikey=84
+fileg_release=1000.033998526122
+
+<region>
+sample=vst_trumpet-trumpet-trumpet_0-5_4.wav
+pan=0.0
+lokey=79 hikey=84
+pitch_keycenter=79
+
+<region>
+sample=vst_trumpet-trumpet-trumpet_1-5_4.wav
+pan=0.0
+lokey=61 hikey=67
+pitch_keycenter=64
+
+<region>
+sample=vst_trumpet-trumpet-trumpet_2-5_4.wav
+pan=0.0
+lokey=48 hikey=60
+pitch_keycenter=60
+
+<region>
+sample=vst_trumpet-trumpet-trumpet_3-5_4.wav
+pan=0.0
+lokey=76 hikey=78
+pitch_keycenter=76
+
+<region>
+sample=vst_trumpet-trumpet-trumpet_4-5_4.wav
+pan=0.0
+lokey=68 hikey=71
+pitch_keycenter=69
+
+<region>
+sample=vst_trumpet-trumpet-trumpet_5-5_4.wav
+pan=0.0
+lokey=72 hikey=75
+pitch_keycenter=72
+

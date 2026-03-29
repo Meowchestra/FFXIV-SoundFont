@@ -1,0 +1,65 @@
+// eg_muted
+
+<global>
+lokey=48 hikey=84
+
+<region>
+sample=029muteguitar.scd_0.wav
+pan=0.0
+lokey=82 hikey=84
+pitch_keycenter=84
+
+<region>
+sample=029muteguitar.scd_1.wav
+pan=0.0
+lokey=72 hikey=75
+pitch_keycenter=72
+
+<region>
+sample=029muteguitar.scd_2.wav
+pan=0.0
+lokey=60 hikey=61
+pitch_keycenter=60
+
+<region>
+sample=029muteguitar.scd_3.wav
+pan=0.0
+lokey=48 hikey=51
+pitch_keycenter=48
+
+<region>
+sample=029muteguitar.scd_4.wav
+pan=0.0
+lokey=79 hikey=81
+pitch_keycenter=79
+
+<region>
+sample=029muteguitar.scd_5.wav
+pan=0.0
+lokey=67 hikey=71
+pitch_keycenter=67
+
+<region>
+sample=029muteguitar.scd_6.wav
+pan=0.0
+lokey=55 hikey=59
+pitch_keycenter=55
+
+<region>
+sample=029muteguitar.scd_7.wav
+pan=0.0
+lokey=76 hikey=78
+pitch_keycenter=76
+
+<region>
+sample=029muteguitar.scd_8.wav
+pan=0.0
+lokey=62 hikey=66
+pitch_keycenter=64
+
+<region>
+sample=029muteguitar.scd_9.wav
+pan=0.0
+lokey=52 hikey=54
+pitch_keycenter=52
+

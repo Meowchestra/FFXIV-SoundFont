@@ -1,0 +1,35 @@
+// trombone
+
+<global>
+lokey=48 hikey=84
+
+<region>
+sample=058trombone.scd_0.wav
+pan=0.0
+lokey=48 hikey=62
+pitch_keycenter=60
+
+<region>
+sample=058trombone.scd_1.wav
+pan=0.0
+lokey=63 hikey=69
+pitch_keycenter=65
+
+<region>
+sample=058trombone.scd_2.wav
+pan=0.0
+lokey=70 hikey=71
+pitch_keycenter=71
+
+<region>
+sample=058trombone.scd_3.wav
+pan=0.0
+lokey=72 hikey=75
+pitch_keycenter=74
+
+<region>
+sample=058trombone.scd_4.wav
+pan=0.0
+lokey=76 hikey=84
+pitch_keycenter=76
+

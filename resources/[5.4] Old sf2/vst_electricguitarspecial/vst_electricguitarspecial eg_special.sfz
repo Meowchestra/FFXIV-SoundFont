@@ -1,0 +1,41 @@
+// eg_special
+// Converted from SF2 to SFZ by bash explode
+
+<control>
+default_path=vst_electricguitarspecial eg_special Samples
+
+<global>
+ampeg_release=1000.033998526122
+lokey=48 hikey=84
+fileg_release=1000.033998526122
+
+<region>
+sample=vst_electricguitarspecial-eg_special-eg_special_0.wav
+pan=0.0
+lokey=48 hikey=53
+pitch_keycenter=48
+
+<region>
+sample=vst_electricguitarspecial-eg_special-eg_special_1.wav
+pan=0.0
+lokey=54 hikey=60
+pitch_keycenter=54
+
+<region>
+sample=vst_electricguitarspecial-eg_special-eg_special_2.wav
+pan=0.0
+lokey=61 hikey=67
+pitch_keycenter=61
+
+<region>
+sample=vst_electricguitarspecial-eg_special-eg_special_3.wav
+pan=0.0
+lokey=68 hikey=76
+pitch_keycenter=68
+
+<region>
+sample=vst_electricguitarspecial-eg_special-eg_special_4.wav
+pan=0.0
+lokey=77 hikey=84
+pitch_keycenter=77
+

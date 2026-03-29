@@ -1,0 +1,29 @@
+// saxophone
+
+<global>
+lokey=48 hikey=84
+
+<region>
+sample=066altosax.scd_0.wav
+pan=0.0
+lokey=76 hikey=84
+pitch_keycenter=76
+
+<region>
+sample=066altosax.scd_1.wav
+pan=0.0
+lokey=66 hikey=75
+pitch_keycenter=71
+
+<region>
+sample=066altosax.scd_2.wav
+pan=0.0
+lokey=60 hikey=65
+pitch_keycenter=62
+
+<region>
+sample=066altosax.scd_3.wav
+pan=0.0
+lokey=48 hikey=59
+pitch_keycenter=59
+

@@ -1,0 +1,10 @@
+// cymbal
+
+<global>
+lokey=48 hikey=84
+
+<region>
+sample=100cymbal.scd.wav
+pan=0.0
+lokey=48 hikey=84
+pitch_keycenter=72

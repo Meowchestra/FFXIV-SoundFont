@@ -1,0 +1,35 @@
+// clarinet
+
+<global>
+lokey=48 hikey=84
+
+<region>
+sample=072clarinet.scd_2.wav
+pan=0.0
+lokey=61 hikey=69
+pitch_keycenter=67
+
+<region>
+sample=072clarinet.scd_3.wav
+pan=0.0
+lokey=56 hikey=60
+pitch_keycenter=60
+
+<region>
+sample=072clarinet.scd_4.wav
+pan=0.0
+lokey=48 hikey=55
+pitch_keycenter=55
+
+<region>
+sample=072clarinet.scd_0.wav
+pan=0.0
+lokey=77 hikey=84
+pitch_keycenter=79
+
+<region>
+sample=072clarinet.scd_1.wav
+pan=0.0
+lokey=70 hikey=76
+pitch_keycenter=72
+

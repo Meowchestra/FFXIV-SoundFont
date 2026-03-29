@@ -1,0 +1,35 @@
+// eg_clean
+
+<global>
+lokey=48 hikey=84
+
+<region>
+sample=028cleanguitar.scd_0.wav
+pan=0.0
+lokey=58 hikey=64
+pitch_keycenter=60
+
+<region>
+sample=028cleanguitar.scd_1.wav
+pan=0.0
+lokey=72 hikey=78
+pitch_keycenter=74
+
+<region>
+sample=028cleanguitar.scd_2.wav
+pan=0.0
+lokey=79 hikey=84
+pitch_keycenter=79
+
+<region>
+sample=028cleanguitar.scd_3.wav
+pan=0.0
+lokey=65 hikey=71
+pitch_keycenter=65
+
+<region>
+sample=028cleanguitar.scd_4.wav
+pan=0.0
+lokey=48 hikey=57
+pitch_keycenter=53
+

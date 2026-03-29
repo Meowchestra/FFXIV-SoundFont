@@ -1,0 +1,41 @@
+// doublebass
+// Converted from SF2 to SFZ by bash explode
+
+<control>
+default_path=vst_doublebass doublebass Samples
+
+<global>
+ampeg_release=1000.033998526122
+lokey=48 hikey=84
+fileg_release=1000.033998526122
+
+<region>
+sample=vst_doublebass-doublebass-doublebass_0-5_4.wav
+pan=0.0
+lokey=48 hikey=58
+pitch_keycenter=55
+
+<region>
+sample=vst_doublebass-doublebass-doublebass_1-5_4.wav
+pan=0.0
+lokey=59 hikey=62
+pitch_keycenter=62
+
+<region>
+sample=vst_doublebass-doublebass-doublebass_2-5_4.wav
+pan=0.0
+lokey=63 hikey=69
+pitch_keycenter=67
+
+<region>
+sample=vst_doublebass-doublebass-doublebass_3-5_4.wav
+pan=0.0
+lokey=70 hikey=75
+pitch_keycenter=75
+
+<region>
+sample=vst_doublebass-doublebass-doublebass_4-5_4.wav
+pan=0.0
+lokey=76 hikey=84
+pitch_keycenter=79
+
