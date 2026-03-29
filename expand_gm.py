@@ -22,17 +22,17 @@ logical_mappings = {
         (15, "Dulcimer")
     ],
     # Guitars
-    24: [ # Lute (Nylon) to Steel Acoustic
-        (25, "Acoustic Guitar (Steel)")
+    25: [ # Lute (Nylon) to Steel Acoustic
+        (24, "Acoustic Guitar Nylon")
     ],
     27: [ # Clean Guitar to Jazz Guitar
-        (26, "Electric Guitar (Jazz)")
+        (26, "Electric Guitar Jazz")
     ],
     # Basses -> Doublebass is acoustic, but can reasonably cover electric basses musically
     43: [
         (32, "Acoustic Bass"),
-        (33, "Electric Bass (Finger)"),
-        (34, "Electric Bass (Pick)"),
+        (33, "Electric Bass Finger"),
+        (34, "Electric Bass Pick"),
         (35, "Fretless Bass")
     ],
     # Strings -> Violin natively covers string sections seamlessly
@@ -84,6 +84,10 @@ def expand():
         except Exception:
             pass
 
+    # Ensure output directory exists
+    output_dir = os.path.join("custom", "presets")
+    os.makedirs(output_dir, exist_ok=True)
+
     created_count = 0
     for src_num, expansions in logical_mappings.items():
         if src_num in source_files:
@@ -92,10 +96,10 @@ def expand():
                 src_data = json.load(f)
                 
             for targ_num, targ_name in expansions:
-                safe_name = targ_name.lower().replace(" (", "_").replace(")", "").replace(" ", "_")
+                safe_name = targ_name
                 
                 targ_filename = f"000-{targ_num:03d}_{safe_name}.json"
-                targ_path = os.path.join("presets", targ_filename)
+                targ_path = os.path.join("custom", "presets", targ_filename)
                 
                 targ_data = json.loads(json.dumps(src_data)) # deepcopy
                 targ_data["preset_number"] = targ_num

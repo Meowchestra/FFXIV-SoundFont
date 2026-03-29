@@ -1,5 +1,5 @@
 {
-  "name": "flute",
+  "name": "Flute",
   "bank": 0,
   "preset_number": 73,
   "library": 0,
@@ -14,7 +14,7 @@
     {
       "generators": {
         "keyRange": "48-84",
-        "instrument": "flute"
+        "instrument": "Flute"
       }
     }
   ]

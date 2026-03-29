@@ -56,64 +56,76 @@ jobs:
       # Determine output filenames
       - name: "Determine output filenames"
         run: |
-          REPO_NAME=$(echo "${{ github.repository }}" | cut -d"/" -f2)
-
           if [ "${{ github.event_name }}" == "release" ]; then
             TAG_NAME="${{ github.ref_name }}"
-            BASE_FILENAME="${REPO_NAME}-${TAG_NAME}"
+            BASE_SF_NAME="FFXIV-${TAG_NAME}"
           elif [ "${{ github.event_name }}" == "pull_request" ]; then
             PR_NUMBER="${{ github.event.number }}"
-            BASE_FILENAME="${REPO_NAME}-PR-${PR_NUMBER}"
-          else # workflow_dispatch
+            BASE_SF_NAME="FFXIV-PR-${PR_NUMBER}"
+          else # workflow_dispatch or manual
             BRANCH_NAME=$(echo "${{ github.ref_name }}" | sed 's/\//-/g')
             SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
-            BASE_FILENAME="${REPO_NAME}-${BRANCH_NAME}-${SHORT_SHA}"
+            BASE_SF_NAME="FFXIV-${BRANCH_NAME}-${SHORT_SHA}"
           fi
 
-          echo "SF2_FILENAME=${BASE_FILENAME}.sf2" >> $GITHUB_ENV
-          echo "SF3_FILENAME=${BASE_FILENAME}.sf3" >> $GITHUB_ENV
+          echo "SF2_STD=${BASE_SF_NAME}-Standard.sf2" >> $GITHUB_ENV
+          echo "SF3_STD=${BASE_SF_NAME}-Standard.sf3" >> $GITHUB_ENV
+          echo "SF2_EXP=${BASE_SF_NAME}-Expanded.sf2" >> $GITHUB_ENV
+          echo "SF3_EXP=${BASE_SF_NAME}-Expanded.sf3" >> $GITHUB_ENV
 
-      # Compile sf2
-      - name: "Compile sf2"
+      # 1. Compile FFXIV Standard
+      - name: "Compile FFXIV Standard"
         run: |
-          echo "Compiling sf2: ${{ env.SF2_FILENAME }}..."
-          sfutils compile ${{ env.SOURCE_DIRECTORY }} ${{ env.SF2_FILENAME }}
-
-      # [If PR or Manual or Push] Upload sf2 for download
-      - name: "Upload sf2 (for PR or Manual or Push)"
-        if: github.event_name != 'release'
-        uses: "actions/upload-artifact@v5"
-        with:
-          name: ${{ env.SF2_FILENAME }}
-          path: ${{ env.SF2_FILENAME }}
-
-      # Compile sf3
-      - name: "Compile sf3"
-        run: |
-          # Set quality based on trigger
+          echo "Compiling Standard SF2..."
+          sfutils compile . "${{ env.SF2_STD }}"
+          
+          # Set quality
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
             QUALITY="${{ github.event.inputs.ogg_quality }}"
           else
-            # Use the default value for PR and Release builds
             QUALITY="${{ env.DEFAULT_OGG_QUALITY }}"
           fi
+          
+          echo "Compiling Standard SF3..."
+          sfutils compile . "${{ env.SF3_STD }}" -q $QUALITY
 
-          echo "Compiling sf3: ${{ env.SF3_FILENAME }}"
-          sfutils compile ${{ env.SOURCE_DIRECTORY }} ${{ env.SF3_FILENAME }} -q $QUALITY
+      # 2. Prepare and Compile FFXIV Expanded
+      - name: "Compile FFXIV Expanded"
+        run: |
+          # Merge custom content into main directories
+          cp -r custom/instruments/* instruments/
+          cp -r custom/presets/* presets/
+          
+          echo "Compiling Expanded SF2..."
+          sfutils compile . "${{ env.SF2_EXP }}"
+          
+          # Set quality
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            QUALITY="${{ github.event.inputs.ogg_quality }}"
+          else
+            QUALITY="${{ env.DEFAULT_OGG_QUALITY }}"
+          fi
+          
+          echo "Compiling Expanded SF3..."
+          sfutils compile . "${{ env.SF3_EXP }}" -q $QUALITY
 
-      # [If PR or Manual or Push] Upload sf3 for download
-      - name: "Upload sf3 (for PR or Manual or Push)"
+      # [If PR or Manual or Push] Upload all artifacts
+      - name: "Upload Artifacts"
         if: github.event_name != 'release'
         uses: "actions/upload-artifact@v5"
         with:
-          name: ${{ env.SF3_FILENAME }}
-          path: ${{ env.SF3_FILENAME }}
+          name: FFXIV-SoundFonts
+          path: |
+            *.sf2
+            *.sf3
 
-      # [If Release] Upload individual assets to Release
+      # [If Release] Upload to GitHub Release
       - name: "Upload to Release"
         if: github.event_name == 'release'
         uses: "softprops/action-gh-release@v2"
         with:
           files: |
-            ${{ env.SF2_FILENAME }}
-            ${{ env.SF3_FILENAME }}
+            ${{ env.SF2_STD }}
+            ${{ env.SF3_STD }}
+            ${{ env.SF2_EXP }}
+            ${{ env.SF3_EXP }}

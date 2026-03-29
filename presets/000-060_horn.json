@@ -1,5 +1,5 @@
 {
-  "name": "horn",
+  "name": "Horn",
   "bank": 0,
   "preset_number": 60,
   "library": 0,
@@ -14,7 +14,7 @@
     {
       "generators": {
         "keyRange": "48-84",
-        "instrument": "horn"
+        "instrument": "Horn"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "trumpet",
+  "name": "Trumpet",
   "bank": 0,
   "preset_number": 56,
   "library": 0,
@@ -14,7 +14,7 @@
     {
       "generators": {
         "keyRange": "48-84",
-        "instrument": "trumpet"
+        "instrument": "Trumpet"
       }
     }
   ]

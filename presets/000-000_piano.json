@@ -1,5 +1,5 @@
 {
-  "name": "piano",
+  "name": "Piano",
   "bank": 0,
   "preset_number": 0,
   "library": 0,
@@ -14,7 +14,7 @@
     {
       "generators": {
         "keyRange": "48-84",
-        "instrument": "piano"
+        "instrument": "Piano"
       }
     }
   ]

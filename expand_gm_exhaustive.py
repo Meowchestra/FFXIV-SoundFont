@@ -20,7 +20,6 @@ exhaustive_mappings = {
         (18, "Rock Organ"),
         (19, "Church Organ"),
         (93, "Metallic Pad"),
-        (97, "Soundtrack FX"),
         (114, "Steel Drums")
     ],
     # Harpsichord/Clavinet/Bells are plucked/struck, Harp makes a beautiful acoustic substitute
@@ -38,8 +37,8 @@ exhaustive_mappings = {
         (112, "Tinkle Bell")
     ],
     # Guitars
-    24: [ 
-        (25, "Acoustic Guitar Steel"),
+    25: [ 
+        (24, "Acoustic Guitar Nylon"),
         (104, "Sitar"),
         (105, "Banjo"),
         (106, "Shamisen")
@@ -141,11 +140,11 @@ exhaustive_mappings = {
         (95, "Sweep Pad")
     ],
     # Percussion
-    115: [
-        (118, "Synth Drum")
-    ],
-    116: [
+    96: [
         (113, "Agogo")
+    ],
+    98: [
+        (118, "Synth Drum")
     ]
 }
 
@@ -162,6 +161,10 @@ def expand():
         except Exception:
             pass
 
+    # Ensure output directory exists
+    output_dir = os.path.join("custom", "presets")
+    os.makedirs(output_dir, exist_ok=True)
+
     created_count = 0
     for src_num, expansions in exhaustive_mappings.items():
         if src_num in source_files:
@@ -170,10 +173,10 @@ def expand():
                 src_data = json.load(f)
                 
             for targ_num, targ_name in expansions:
-                safe_name = targ_name.lower().replace(" (", "_").replace(")", "").replace(" ", "_").replace("+", "and")
+                safe_name = targ_name
                 
                 targ_filename = f"000-{targ_num:03d}_{safe_name}.json"
-                targ_path = os.path.join("presets", targ_filename)
+                targ_path = os.path.join("custom", "presets", targ_filename)
                 
                 targ_data = json.loads(json.dumps(src_data)) # deepcopy
                 targ_data["preset_number"] = targ_num

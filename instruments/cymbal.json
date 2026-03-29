@@ -1,5 +1,5 @@
 {
-  "name": "cymbal",
+  "name": "Cymbal",
   "zones": [
     {
       "generators": {
@@ -11,7 +11,7 @@
         "keyRange": "48-50",
         "pan": 0,
         "overridingRootKey": 48,
-        "sample": "cymbal_1"
+        "sample": "100cymbal_1"
       }
     },
     {
@@ -19,7 +19,7 @@
         "keyRange": "51-56",
         "pan": 0,
         "overridingRootKey": 54,
-        "sample": "cymbal_2"
+        "sample": "100cymbal_2"
       }
     },
     {
@@ -27,7 +27,7 @@
         "keyRange": "57-62",
         "pan": 0,
         "overridingRootKey": 60,
-        "sample": "cymbal_3"
+        "sample": "100cymbal_3"
       }
     },
     {
@@ -35,7 +35,7 @@
         "keyRange": "63-68",
         "pan": 0,
         "overridingRootKey": 66,
-        "sample": "cymbal_4"
+        "sample": "100cymbal_4"
       }
     },
     {
@@ -43,7 +43,7 @@
         "keyRange": "69-74",
         "pan": 0,
         "overridingRootKey": 72,
-        "sample": "cymbal_5"
+        "sample": "100cymbal_5"
       }
     },
     {
@@ -51,7 +51,7 @@
         "keyRange": "75-80",
         "pan": 0,
         "overridingRootKey": 78,
-        "sample": "cymbal_6"
+        "sample": "100cymbal_6"
       }
     },
     {
@@ -59,7 +59,7 @@
         "keyRange": "81-84",
         "pan": 0,
         "overridingRootKey": 84,
-        "sample": "cymbal_7"
+        "sample": "100cymbal_7"
       }
     }
   ]

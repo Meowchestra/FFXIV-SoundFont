@@ -1,5 +1,5 @@
 {
-  "name": "fiddle",
+  "name": "Fiddle",
   "bank": 0,
   "preset_number": 45,
   "library": 0,
@@ -14,7 +14,7 @@
     {
       "generators": {
         "keyRange": "48-84",
-        "instrument": "fiddle"
+        "instrument": "Fiddle"
       }
     }
   ]

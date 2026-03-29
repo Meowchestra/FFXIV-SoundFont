@@ -1,5 +1,5 @@
 {
-  "name": "trombone",
+  "name": "Trombone",
   "bank": 0,
   "preset_number": 57,
   "library": 0,
@@ -14,7 +14,7 @@
     {
       "generators": {
         "keyRange": "48-84",
-        "instrument": "trombone"
+        "instrument": "Trombone"
       }
     }
   ]

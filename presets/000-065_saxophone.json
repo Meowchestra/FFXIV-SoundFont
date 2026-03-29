@@ -1,5 +1,5 @@
 {
-  "name": "saxophone",
+  "name": "Saxophone",
   "bank": 0,
   "preset_number": 65,
   "library": 0,
@@ -14,7 +14,7 @@
     {
       "generators": {
         "keyRange": "48-84",
-        "instrument": "saxophone"
+        "instrument": "Saxophone"
       }
     }
   ]

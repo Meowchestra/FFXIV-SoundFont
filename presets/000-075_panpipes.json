@@ -1,5 +1,5 @@
 {
-  "name": "panpipes",
+  "name": "Panpipes",
   "bank": 0,
   "preset_number": 75,
   "library": 0,
@@ -14,7 +14,7 @@
     {
       "generators": {
         "keyRange": "48-84",
-        "instrument": "panpipes"
+        "instrument": "Panpipes"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "tuba",
+  "name": "Tuba",
   "bank": 0,
   "preset_number": 58,
   "library": 0,
@@ -14,7 +14,7 @@
     {
       "generators": {
         "keyRange": "48-84",
-        "instrument": "tuba"
+        "instrument": "Tuba"
       }
     }
   ]

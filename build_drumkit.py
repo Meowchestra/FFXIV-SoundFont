@@ -4,51 +4,51 @@ import os
 # Map GM key to (source_instrument, ffxiv_target_key)
 drum_map = {
     # Community Matched Preset Mappings:
-    35: ("bassdrum", 55),  # Kick Drum 2
-    36: ("bassdrum", 57),  # Kick Drum 1
-    41: ("bassdrum", 63),  # Low Tom 2
-    43: ("bassdrum", 66),  # Low Tom 1
-    45: ("bassdrum", 70),  # Mid Tom 2
-    47: ("bassdrum", 73),  # Mid Tom 1
-    48: ("bassdrum", 77),  # High Tom 2
-    50: ("bassdrum", 80),  # High Tom 1
-    38: ("snaredrum", 67), # Snare Drum 1
-    40: ("snaredrum", 69), # Snare Drum 2
-    49: ("cymbal", 71),    # Crash Cymbal
-    52: ("cymbal", 69),    # Chinese Cymbal
-    55: ("cymbal", 77),    # Splash Cymbal
-    57: ("cymbal", 71),    # Crash Cymbal
-    60: ("bongo", 70),     # High Bongo
-    61: ("bongo", 67),     # Low Bongo
+    35: ("Bass Drum", 55),  # Kick Drum 2
+    36: ("Bass Drum", 57),  # Kick Drum 1
+    41: ("Bass Drum", 63),  # Low Tom 2
+    43: ("Bass Drum", 66),  # Low Tom 1
+    45: ("Bass Drum", 70),  # Mid Tom 2
+    47: ("Bass Drum", 73),  # Mid Tom 1
+    48: ("Bass Drum", 77),  # High Tom 2
+    50: ("Bass Drum", 80),  # High Tom 1
+    38: ("Snare Drum", 67), # Snare Drum 1
+    40: ("Snare Drum", 69), # Snare Drum 2
+    49: ("Cymbal", 71),     # Crash Cymbal
+    52: ("Cymbal", 69),     # Chinese Cymbal
+    55: ("Cymbal", 77),     # Splash Cymbal
+    57: ("Cymbal", 71),     # Crash Cymbal
+    60: ("Bongo", 70),      # High Bongo
+    61: ("Bongo", 67),      # Low Bongo
 
     # Remaining General MIDI Holes:
-    37: ("snaredrum", 72), # Side Stick 
-    39: ("snaredrum", 75), # Hand Clap 
-    42: ("cymbal", 84),    # Closed Hi Hat 
-    44: ("cymbal", 84),    # Pedal Hi-Hat
-    46: ("cymbal", 78),    # Open Hi-Hat
-    51: ("cymbal", 54),    # Ride Cymbal 1
-    53: ("cymbal", 84),    # Ride Bell
-    54: ("cymbal", 84),    # Tambourine
-    56: ("bongo", 75),     # Cowbell
-    58: ("snaredrum", 76), # Vibraslap (snare rims/buzz)
-    59: ("cymbal", 60),    # Ride Cymbal 2
-    62: ("bongo", 72),     # Mute Hi Conga
-    63: ("bongo", 70),     # Open Hi Conga
-    64: ("bongo", 67),     # Low Conga
-    65: ("timpani", 72),   # High Timbale
-    66: ("timpani", 67),   # Low Timbale
-    67: ("bongo", 74),     # High Agogo
-    68: ("bongo", 69),     # Low Agogo
-    69: ("snaredrum", 80), # Cabasa 
-    70: ("snaredrum", 80), # Maracas
-    73: ("bongo", 76),     # Short Guiro
-    74: ("bongo", 60),     # Long Guiro
-    75: ("bongo", 75),     # Claves
-    76: ("bongo", 77),     # Hi Wood Block
-    77: ("bongo", 72),     # Low Wood Block
-    80: ("cymbal", 84),    # Mute Triangle
-    81: ("cymbal", 81),    # Open Triangle
+    37: ("Snare Drum", 72), # Side Stick 
+    39: ("Snare Drum", 75), # Hand Clap 
+    42: ("Cymbal", 84),     # Closed Hi Hat 
+    44: ("Cymbal", 84),     # Pedal Hi-Hat
+    46: ("Cymbal", 78),     # Open Hi-Hat
+    51: ("Cymbal", 54),     # Ride Cymbal 1
+    53: ("Cymbal", 84),     # Ride Bell
+    54: ("Cymbal", 84),     # Tambourine
+    56: ("Bongo", 75),      # Cowbell
+    58: ("Snare Drum", 76), # Vibraslap (snare rims/buzz)
+    59: ("Cymbal", 60),     # Ride Cymbal 2
+    62: ("Bongo", 72),      # Mute Hi Conga
+    63: ("Bongo", 70),      # Open Hi Conga
+    64: ("Bongo", 67),      # Low Conga
+    65: ("Timpani", 72),    # High Timbale
+    66: ("Timpani", 67),    # Low Timbale
+    67: ("Bongo", 74),      # High Agogo
+    68: ("Bongo", 69),      # Low Agogo
+    69: ("Snare Drum", 80), # Cabasa 
+    70: ("Snare Drum", 80), # Maracas
+    73: ("Bongo", 76),      # Short Guiro
+    74: ("Bongo", 60),      # Long Guiro
+    75: ("Bongo", 75),      # Claves
+    76: ("Bongo", 77),      # Hi Wood Block
+    77: ("Bongo", 72),      # Low Wood Block
+    80: ("Cymbal", 84),     # Mute Triangle
+    81: ("Cymbal", 81),     # Open Triangle
 }
 
 def parse_keyrange(kr_str):
@@ -58,9 +58,13 @@ def parse_keyrange(kr_str):
     return int(kr_str), int(kr_str)
 
 def build_kit():
+    # Ensure output directory exists
+    output_dir = os.path.join("custom", "instruments")
+    os.makedirs(output_dir, exist_ok=True)
+
     # 1. Read existing instrument files globally
     source_instruments = {}
-    instrument_files = ['bassdrum', 'snaredrum', 'bongo', 'timpani', 'cymbal']
+    instrument_files = ['Bass Drum', 'Snare Drum', 'Bongo', 'Timpani', 'Cymbal']
     
     for instr in instrument_files:
         path = os.path.join("instruments", f"{instr}.json")
@@ -118,11 +122,11 @@ def build_kit():
 
     # Save combinations back to standard_kit.json
     kit_instr = {
-        "name": "standard_kit",
+        "name": "Standard Kit",
         "zones": standard_kit_zones
     }
     
-    instr_path = os.path.join("instruments", "standard_kit.json")
+    instr_path = os.path.join("custom", "instruments", "Standard Kit.json")
     with open(instr_path, "w", encoding="utf-8") as f:
         json.dump(kit_instr, f, indent=2)
         
