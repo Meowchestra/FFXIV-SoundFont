@@ -1,0 +1,21 @@
+{
+  "name": "Standard Drum Kit",
+  "bank": 128,
+  "preset_number": 0,
+  "library": 0,
+  "genre": 0,
+  "morphology": 0,
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 11959
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "35-81",
+        "instrument": "standard_kit"
+      }
+    }
+  ]
+}
