@@ -1,0 +1,51 @@
+{
+  "name": "Horn",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-84",
+        "pan": 0,
+        "sample": "061frenchhorn.scd_1",
+        "startAddrsOffset": 101
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-70",
+        "pan": 0,
+        "sample": "061frenchhorn.scd_2",
+        "startAddrsOffset": 45
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-63",
+        "pan": 0,
+        "sample": "061frenchhorn.scd_3",
+        "startAddrsOffset": 92
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "pan": 0,
+        "sample": "061frenchhorn.scd_4",
+        "startAddrsOffset": 167
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-55",
+        "pan": 0,
+        "sample": "061frenchhorn.scd_0",
+        "startAddrsOffset": 60
+      }
+    }
+  ]
+}

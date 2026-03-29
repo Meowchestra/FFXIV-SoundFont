@@ -1,0 +1,50 @@
+{
+  "name": "Piano",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-66",
+        "pan": 0,
+        "sample": "001grandpiano.scd_3",
+        "startAddrsOffset": 3058
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-59",
+        "pan": 0,
+        "sample": "001grandpiano.scd_4",
+        "startAddrsOffset": 3056
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-84",
+        "pan": 0,
+        "sample": "001grandpiano.scd_0",
+        "startAddrsOffset": 3047
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-73",
+        "pan": 0,
+        "sample": "001grandpiano.scd_1",
+        "startAddrsOffset": 3087
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-76",
+        "pan": 0,
+        "sample": "001grandpiano.scd_2",
+        "startAddrsOffset": 3047
+      }
+    }
+  ]
+}

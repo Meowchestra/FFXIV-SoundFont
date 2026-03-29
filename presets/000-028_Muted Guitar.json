@@ -1,0 +1,21 @@
+{
+  "name": "Muted Guitar",
+  "bank": 0,
+  "preset_number": 28,
+  "library": 0,
+  "genre": 0,
+  "morphology": 0,
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 11959
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "instrument": "Muted Guitar"
+      }
+    }
+  ]
+}

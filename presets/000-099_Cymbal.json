@@ -1,0 +1,21 @@
+{
+  "name": "Cymbal",
+  "bank": 0,
+  "preset_number": 99,
+  "library": 0,
+  "genre": 0,
+  "morphology": 0,
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "releaseVolEnv": 11959
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Cymbal"
+      }
+    }
+  ]
+}
