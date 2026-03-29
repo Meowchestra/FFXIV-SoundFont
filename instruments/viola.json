@@ -11,35 +11,40 @@
       "generators": {
         "keyRange": "48-55",
         "pan": 0,
-        "sample": "042viola.scd_0"
+        "sample": "042viola.scd_0",
+        "startAddrsOffset": 242
       }
     },
     {
       "generators": {
         "keyRange": "56-62",
         "pan": 0,
-        "sample": "042viola.scd_1"
+        "sample": "042viola.scd_1",
+        "startAddrsOffset": 262
       }
     },
     {
       "generators": {
         "keyRange": "63-69",
         "pan": 0,
-        "sample": "042viola.scd_2"
+        "sample": "042viola.scd_2",
+        "startAddrsOffset": 216
       }
     },
     {
       "generators": {
         "keyRange": "70-76",
         "pan": 0,
-        "sample": "042viola.scd_3"
+        "sample": "042viola.scd_3",
+        "startAddrsOffset": 322
       }
     },
     {
       "generators": {
         "keyRange": "77-84",
         "pan": 0,
-        "sample": "042viola.scd_4"
+        "sample": "042viola.scd_4",
+        "startAddrsOffset": 208
       }
     }
   ]

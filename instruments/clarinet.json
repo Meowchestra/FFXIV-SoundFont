@@ -11,35 +11,40 @@
       "generators": {
         "keyRange": "61-69",
         "pan": 0,
-        "sample": "072clarinet.scd_2"
+        "sample": "072clarinet.scd_2",
+        "startAddrsOffset": 76
       }
     },
     {
       "generators": {
         "keyRange": "56-60",
         "pan": 0,
-        "sample": "072clarinet.scd_3"
+        "sample": "072clarinet.scd_3",
+        "startAddrsOffset": 115
       }
     },
     {
       "generators": {
         "keyRange": "48-55",
         "pan": 0,
-        "sample": "072clarinet.scd_4"
+        "sample": "072clarinet.scd_4",
+        "startAddrsOffset": 89
       }
     },
     {
       "generators": {
         "keyRange": "77-84",
         "pan": 0,
-        "sample": "072clarinet.scd_0"
+        "sample": "072clarinet.scd_0",
+        "startAddrsOffset": 47
       }
     },
     {
       "generators": {
         "keyRange": "70-76",
         "pan": 0,
-        "sample": "072clarinet.scd_1"
+        "sample": "072clarinet.scd_1",
+        "startAddrsOffset": 96
       }
     }
   ]

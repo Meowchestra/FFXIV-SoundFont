@@ -11,35 +11,40 @@
       "generators": {
         "keyRange": "48-57",
         "pan": 0,
-        "sample": "041violin.scd_0"
+        "sample": "041violin.scd_0",
+        "startAddrsOffset": 342
       }
     },
     {
       "generators": {
         "keyRange": "58-65",
         "pan": 0,
-        "sample": "041violin.scd_1"
+        "sample": "041violin.scd_1",
+        "startAddrsOffset": 149
       }
     },
     {
       "generators": {
         "keyRange": "77-84",
         "pan": 0,
-        "sample": "041violin.scd_2"
+        "sample": "041violin.scd_2",
+        "startAddrsOffset": 136
       }
     },
     {
       "generators": {
         "keyRange": "72-76",
         "pan": 0,
-        "sample": "041violin.scd_3"
+        "sample": "041violin.scd_3",
+        "startAddrsOffset": 147
       }
     },
     {
       "generators": {
         "keyRange": "66-71",
         "pan": 0,
-        "sample": "041violin.scd_4"
+        "sample": "041violin.scd_4",
+        "startAddrsOffset": 140
       }
     }
   ]

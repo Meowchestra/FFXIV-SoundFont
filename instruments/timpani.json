@@ -10,21 +10,24 @@
       "generators": {
         "keyRange": "72-84",
         "pan": 0,
-        "sample": "048timpani.scd_0"
+        "sample": "048timpani.scd_0",
+        "startAddrsOffset": 2940
       }
     },
     {
       "generators": {
         "keyRange": "64-71",
         "pan": 0,
-        "sample": "048timpani.scd_1"
+        "sample": "048timpani.scd_1",
+        "startAddrsOffset": 2900
       }
     },
     {
       "generators": {
         "keyRange": "48-63",
         "pan": 0,
-        "sample": "048timpani.scd_2"
+        "sample": "048timpani.scd_2",
+        "startAddrsOffset": 2947
       }
     }
   ]

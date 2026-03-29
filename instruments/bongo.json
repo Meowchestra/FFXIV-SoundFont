@@ -10,21 +10,24 @@
       "generators": {
         "keyRange": "56-69",
         "pan": 0,
-        "sample": "097bongo.scd_1"
+        "sample": "097bongo.scd_1",
+        "startAddrsOffset": 2866
       }
     },
     {
       "generators": {
         "keyRange": "48-55",
         "pan": 0,
-        "sample": "097bongo.scd_2"
+        "sample": "097bongo.scd_2",
+        "startAddrsOffset": 3039
       }
     },
     {
       "generators": {
         "keyRange": "70-84",
         "pan": 0,
-        "sample": "097bongo.scd_0"
+        "sample": "097bongo.scd_0",
+        "startAddrsOffset": 2361
       }
     }
   ]

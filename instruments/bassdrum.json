@@ -10,28 +10,32 @@
       "generators": {
         "keyRange": "72-84",
         "pan": 0,
-        "sample": "098bd.scd_1"
+        "sample": "098bd.scd_1",
+        "startAddrsOffset": 2016
       }
     },
     {
       "generators": {
         "keyRange": "55-59",
         "pan": 0,
-        "sample": "098bd.scd_2"
+        "sample": "098bd.scd_2",
+        "startAddrsOffset": 2819
       }
     },
     {
       "generators": {
         "keyRange": "48-54",
         "pan": 0,
-        "sample": "098bd.scd_3"
+        "sample": "098bd.scd_3",
+        "startAddrsOffset": 3131
       }
     },
     {
       "generators": {
         "keyRange": "60-71",
         "pan": 0,
-        "sample": "098bd.scd_0"
+        "sample": "098bd.scd_0",
+        "startAddrsOffset": 2422
       }
     }
   ]

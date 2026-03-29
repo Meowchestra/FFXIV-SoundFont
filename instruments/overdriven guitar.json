@@ -11,35 +11,40 @@
       "generators": {
         "keyRange": "59-64",
         "pan": 0,
-        "sample": "030driveguitar.scd_0"
+        "sample": "030driveguitar.scd_0",
+        "startAddrsOffset": 40
       }
     },
     {
       "generators": {
         "keyRange": "70-78",
         "pan": 0,
-        "sample": "030driveguitar.scd_1"
+        "sample": "030driveguitar.scd_1",
+        "startAddrsOffset": 86
       }
     },
     {
       "generators": {
         "keyRange": "79-84",
         "pan": 0,
-        "sample": "030driveguitar.scd_2"
+        "sample": "030driveguitar.scd_2",
+        "startAddrsOffset": 146
       }
     },
     {
       "generators": {
         "keyRange": "48-58",
         "pan": 0,
-        "sample": "030driveguitar.scd_3"
+        "sample": "030driveguitar.scd_3",
+        "startAddrsOffset": 128
       }
     },
     {
       "generators": {
         "keyRange": "65-69",
         "pan": 0,
-        "sample": "030driveguitar.scd_4"
+        "sample": "030driveguitar.scd_4",
+        "startAddrsOffset": 122
       }
     }
   ]

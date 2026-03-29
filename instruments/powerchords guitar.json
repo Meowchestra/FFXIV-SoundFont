@@ -11,7 +11,8 @@
       "generators": {
         "keyRange": "48-56",
         "pan": 0,
-        "sample": "031powerguitar.scd_0"
+        "sample": "031powerguitar.scd_0",
+        "startAddrsOffset": 150
       }
     },
     {
@@ -25,7 +26,8 @@
       "generators": {
         "keyRange": "65-69",
         "pan": 0,
-        "sample": "031powerguitar.scd_2"
+        "sample": "031powerguitar.scd_2",
+        "startAddrsOffset": 127
       }
     },
     {
@@ -39,7 +41,8 @@
       "generators": {
         "keyRange": "77-84",
         "pan": 0,
-        "sample": "031powerguitar.scd_4"
+        "sample": "031powerguitar.scd_4",
+        "startAddrsOffset": 141
       }
     }
   ]

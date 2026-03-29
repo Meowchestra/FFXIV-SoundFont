@@ -11,35 +11,40 @@
       "generators": {
         "keyRange": "65-71",
         "pan": 0,
-        "sample": "073piccolo.scd_2"
+        "sample": "073piccolo.scd_2",
+        "startAddrsOffset": 3038
       }
     },
     {
       "generators": {
         "keyRange": "72-84",
         "pan": 0,
-        "sample": "073piccolo.scd_3"
+        "sample": "073piccolo.scd_3",
+        "startAddrsOffset": 3002
       }
     },
     {
       "generators": {
         "keyRange": "48-55",
         "pan": 0,
-        "sample": "073piccolo.scd_4"
+        "sample": "073piccolo.scd_4",
+        "startAddrsOffset": 2907
       }
     },
     {
       "generators": {
         "keyRange": "61-64",
         "pan": 0,
-        "sample": "073piccolo.scd_0"
+        "sample": "073piccolo.scd_0",
+        "startAddrsOffset": 2937
       }
     },
     {
       "generators": {
         "keyRange": "56-60",
         "pan": 0,
-        "sample": "073piccolo.scd_1"
+        "sample": "073piccolo.scd_1",
+        "startAddrsOffset": 2978
       }
     }
   ]
