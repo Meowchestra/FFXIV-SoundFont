@@ -1,0 +1,31 @@
+{
+  "name": "bongo",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-69",
+        "pan": 0,
+        "sample": "097bongo.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-55",
+        "pan": 0,
+        "sample": "097bongo.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-84",
+        "pan": 0,
+        "sample": "097bongo.scd_0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "flute",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "pan": 0,
+        "sample": "074flute.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-63",
+        "pan": 0,
+        "sample": "074flute.scd_4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-55",
+        "pan": 0,
+        "sample": "074flute.scd_5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-84",
+        "pan": 0,
+        "sample": "074flute.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-78",
+        "pan": 0,
+        "sample": "074flute.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-71",
+        "pan": 0,
+        "sample": "074flute.scd_2"
+      }
+    }
+  ]
+}

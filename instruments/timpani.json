@@ -1,0 +1,31 @@
+{
+  "name": "timpani",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-84",
+        "pan": 0,
+        "sample": "048timpani.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-71",
+        "pan": 0,
+        "sample": "048timpani.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-63",
+        "pan": 0,
+        "sample": "048timpani.scd_2"
+      }
+    }
+  ]
+}

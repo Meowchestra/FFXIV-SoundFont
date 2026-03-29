@@ -1,0 +1,46 @@
+{
+  "name": "clarinet",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-69",
+        "pan": 0,
+        "sample": "072clarinet.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-60",
+        "pan": 0,
+        "sample": "072clarinet.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-55",
+        "pan": 0,
+        "sample": "072clarinet.scd_4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-84",
+        "pan": 0,
+        "sample": "072clarinet.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-76",
+        "pan": 0,
+        "sample": "072clarinet.scd_1"
+      }
+    }
+  ]
+}

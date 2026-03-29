@@ -1,0 +1,21 @@
+{
+  "name": "cymbal",
+  "bank": 0,
+  "preset_number": 127,
+  "library": 0,
+  "genre": 0,
+  "morphology": 0,
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "releaseVolEnv": 11959
+      }
+    },
+    {
+      "generators": {
+        "instrument": "cymbal"
+      }
+    }
+  ]
+}

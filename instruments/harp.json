@@ -1,0 +1,38 @@
+{
+  "name": "harp",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-76",
+        "pan": 0,
+        "sample": "047harp.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-84",
+        "pan": 0,
+        "sample": "047harp.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-67",
+        "pan": 0,
+        "sample": "047harp.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-57",
+        "pan": 0,
+        "sample": "047harp.scd_3"
+      }
+    }
+  ]
+}

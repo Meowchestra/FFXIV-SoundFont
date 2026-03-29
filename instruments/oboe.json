@@ -1,0 +1,46 @@
+{
+  "name": "oboe",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-62",
+        "pan": 0,
+        "sample": "069oboe.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-66",
+        "pan": 0,
+        "sample": "069oboe.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-57",
+        "pan": 0,
+        "sample": "069oboe.scd_4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-84",
+        "pan": 0,
+        "sample": "069oboe.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-69",
+        "pan": 0,
+        "sample": "069oboe.scd_1"
+      }
+    }
+  ]
+}

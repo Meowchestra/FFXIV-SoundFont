@@ -1,0 +1,38 @@
+{
+  "name": "lute",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-76",
+        "pan": 0,
+        "sample": "026steelguitar.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-69",
+        "pan": 0,
+        "sample": "026steelguitar.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-62",
+        "pan": 0,
+        "sample": "026steelguitar.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-84",
+        "pan": 0,
+        "sample": "026steelguitar.scd_0"
+      }
+    }
+  ]
+}

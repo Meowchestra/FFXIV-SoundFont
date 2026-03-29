@@ -1,0 +1,46 @@
+{
+  "name": "clean guitar",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-64",
+        "pan": 0,
+        "sample": "028cleanguitar.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-78",
+        "pan": 0,
+        "sample": "028cleanguitar.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-84",
+        "pan": 0,
+        "sample": "028cleanguitar.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-71",
+        "pan": 0,
+        "sample": "028cleanguitar.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-57",
+        "pan": 0,
+        "sample": "028cleanguitar.scd_4"
+      }
+    }
+  ]
+}

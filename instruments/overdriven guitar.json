@@ -1,0 +1,46 @@
+{
+  "name": "overdriven guitar",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-64",
+        "pan": 0,
+        "sample": "030driveguitar.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-78",
+        "pan": 0,
+        "sample": "030driveguitar.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-84",
+        "pan": 0,
+        "sample": "030driveguitar.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-58",
+        "pan": 0,
+        "sample": "030driveguitar.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-69",
+        "pan": 0,
+        "sample": "030driveguitar.scd_4"
+      }
+    }
+  ]
+}

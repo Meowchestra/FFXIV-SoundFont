@@ -1,0 +1,53 @@
+{
+  "name": "trumpet",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-84",
+        "pan": 0,
+        "sample": "057trumpet.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-67",
+        "pan": 0,
+        "sample": "057trumpet.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-60",
+        "pan": 0,
+        "sample": "057trumpet.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-78",
+        "pan": 0,
+        "sample": "057trumpet.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-71",
+        "pan": 0,
+        "sample": "057trumpet.scd_4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-75",
+        "pan": 0,
+        "sample": "057trumpet.scd_5"
+      }
+    }
+  ]
+}

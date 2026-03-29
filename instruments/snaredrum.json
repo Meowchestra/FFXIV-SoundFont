@@ -1,0 +1,38 @@
+{
+  "name": "snaredrum",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-59",
+        "pan": 0,
+        "sample": "099snare.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-67",
+        "pan": 0,
+        "sample": "099snare.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-71",
+        "pan": 0,
+        "sample": "099snare.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-84",
+        "pan": 0,
+        "sample": "099snare.scd_3"
+      }
+    }
+  ]
+}

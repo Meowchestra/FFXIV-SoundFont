@@ -1,0 +1,46 @@
+{
+  "name": "fife",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-71",
+        "pan": 0,
+        "sample": "073piccolo.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-84",
+        "pan": 0,
+        "sample": "073piccolo.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-55",
+        "pan": 0,
+        "sample": "073piccolo.scd_4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-64",
+        "pan": 0,
+        "sample": "073piccolo.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-60",
+        "pan": 0,
+        "sample": "073piccolo.scd_1"
+      }
+    }
+  ]
+}

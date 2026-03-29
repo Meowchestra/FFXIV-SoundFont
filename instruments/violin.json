@@ -1,0 +1,46 @@
+{
+  "name": "violin",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-57",
+        "pan": 0,
+        "sample": "041violin.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-65",
+        "pan": 0,
+        "sample": "041violin.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-84",
+        "pan": 0,
+        "sample": "041violin.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-76",
+        "pan": 0,
+        "sample": "041violin.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-71",
+        "pan": 0,
+        "sample": "041violin.scd_4"
+      }
+    }
+  ]
+}

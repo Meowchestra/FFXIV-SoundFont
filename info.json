@@ -1,0 +1,8 @@
+{
+  "version": "2.01",
+  "sound_engine": "EMU8000",
+  "bank_name": "FFXIV Soundfont",
+  "engineer": "Meowchestra",
+  "comment": "Patch 7.3",
+  "software": "Polyphone"
+}

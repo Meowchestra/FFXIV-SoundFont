@@ -1,0 +1,46 @@
+{
+  "name": "doublebass",
+  "zones": [
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "sampleModes": 1
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-58",
+        "pan": 0,
+        "sample": "044contrabass.scd_0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-62",
+        "pan": 0,
+        "sample": "044contrabass.scd_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-69",
+        "pan": 0,
+        "sample": "044contrabass.scd_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-75",
+        "pan": 0,
+        "sample": "044contrabass.scd_3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-84",
+        "pan": 0,
+        "sample": "044contrabass.scd_4"
+      }
+    }
+  ]
+}
