@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "65-67",
+        "keyRange": "64-67",
         "pan": 0,
         "sample": "076panflute.scd_1",
         "startAddrsOffset": 3015
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-64",
+        "keyRange": "48-63",
         "pan": 0,
         "sample": "076panflute.scd_2",
         "startAddrsOffset": 2915

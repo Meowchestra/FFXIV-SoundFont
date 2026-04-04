@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "58-65",
+        "keyRange": "58-66",
         "pan": 0,
         "sample": "041violin.scd_1",
         "startAddrsOffset": 149
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "77-84",
+        "keyRange": "78-84",
         "pan": 0,
         "sample": "041violin.scd_2",
         "startAddrsOffset": 136
@@ -33,7 +33,7 @@
     },
     {
       "generators": {
-        "keyRange": "72-76",
+        "keyRange": "74-77",
         "pan": 0,
         "sample": "041violin.scd_3",
         "startAddrsOffset": 147
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "66-71",
+        "keyRange": "67-73",
         "pan": 0,
         "sample": "041violin.scd_4",
         "startAddrsOffset": 140

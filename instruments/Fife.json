@@ -33,7 +33,7 @@
     },
     {
       "generators": {
-        "keyRange": "61-64",
+        "keyRange": "62-64",
         "pan": 0,
         "sample": "073piccolo.scd_0",
         "startAddrsOffset": 2937
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "56-60",
+        "keyRange": "56-61",
         "pan": 0,
         "sample": "073piccolo.scd_1",
         "startAddrsOffset": 2978

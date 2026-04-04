@@ -16,7 +16,7 @@
     },
     {
       "generators": {
-        "keyRange": "55-59",
+        "keyRange": "55-65",
         "pan": 0,
         "sample": "098bd.scd_2",
         "startAddrsOffset": 2819
@@ -32,7 +32,7 @@
     },
     {
       "generators": {
-        "keyRange": "60-71",
+        "keyRange": "66-71",
         "pan": 0,
         "sample": "098bd.scd_0",
         "startAddrsOffset": 2422

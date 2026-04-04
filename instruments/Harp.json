@@ -24,7 +24,7 @@
     },
     {
       "generators": {
-        "keyRange": "58-67",
+        "keyRange": "59-67",
         "pan": 0,
         "sample": "047harp.scd_2",
         "startAddrsOffset": 2853
@@ -32,7 +32,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-57",
+        "keyRange": "48-58",
         "pan": 0,
         "sample": "047harp.scd_3",
         "startAddrsOffset": 2888

@@ -9,7 +9,7 @@
     },
     {
       "generators": {
-        "keyRange": "79-84",
+        "keyRange": "78-84",
         "pan": 0,
         "sample": "057trumpet.scd_0",
         "startAddrsOffset": 689
@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "61-67",
+        "keyRange": "63-66",
         "pan": 0,
         "sample": "057trumpet.scd_1",
         "startAddrsOffset": 590
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-60",
+        "keyRange": "48-62",
         "pan": 0,
         "sample": "057trumpet.scd_2",
         "startAddrsOffset": 81
@@ -33,7 +33,7 @@
     },
     {
       "generators": {
-        "keyRange": "76-78",
+        "keyRange": "75-77",
         "pan": 0,
         "sample": "057trumpet.scd_3",
         "startAddrsOffset": 110
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "68-71",
+        "keyRange": "67-71",
         "pan": 0,
         "sample": "057trumpet.scd_4",
         "startAddrsOffset": 329
@@ -49,7 +49,7 @@
     },
     {
       "generators": {
-        "keyRange": "72-75",
+        "keyRange": "72-74",
         "pan": 0,
         "sample": "057trumpet.scd_5",
         "startAddrsOffset": 167

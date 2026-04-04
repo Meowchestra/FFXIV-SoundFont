@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "63-66",
+        "keyRange": "63-65",
         "pan": 0,
         "sample": "069oboe.scd_3",
         "startAddrsOffset": 3011
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "67-69",
+        "keyRange": "66-69",
         "pan": 0,
         "sample": "069oboe.scd_1",
         "startAddrsOffset": 2853

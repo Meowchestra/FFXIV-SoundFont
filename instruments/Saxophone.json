@@ -9,7 +9,7 @@
     },
     {
       "generators": {
-        "keyRange": "76-84",
+        "keyRange": "74-84",
         "pan": 0,
         "sample": "066altosax.scd_0",
         "startAddrsOffset": 142
@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "66-75",
+        "keyRange": "66-73",
         "pan": 0,
         "sample": "066altosax.scd_1",
         "startAddrsOffset": 119

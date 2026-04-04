@@ -9,7 +9,7 @@
     },
     {
       "generators": {
-        "keyRange": "61-69",
+        "keyRange": "65-69",
         "pan": 0,
         "sample": "072clarinet.scd_2",
         "startAddrsOffset": 76
@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "56-60",
+        "keyRange": "59-64",
         "pan": 0,
         "sample": "072clarinet.scd_3",
         "startAddrsOffset": 115
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-55",
+        "keyRange": "48-58",
         "pan": 0,
         "sample": "072clarinet.scd_4",
         "startAddrsOffset": 89
