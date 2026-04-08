@@ -13,7 +13,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-84",
+        "keyRange": "36-72",
         "instrument": "Trombone"
       }
     }

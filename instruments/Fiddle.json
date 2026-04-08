@@ -3,12 +3,12 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84"
+        "keyRange": "36-72"
       }
     },
     {
       "generators": {
-        "keyRange": "51-54",
+        "keyRange": "39-42",
         "pan": 0,
         "sample": "046pizzicato.scd_0",
         "startAddrsOffset": 2933
@@ -16,7 +16,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-50",
+        "keyRange": "36-38",
         "pan": 0,
         "sample": "046pizzicato.scd_1",
         "startAddrsOffset": 2915
@@ -24,7 +24,7 @@
     },
     {
       "generators": {
-        "keyRange": "55-58",
+        "keyRange": "43-46",
         "pan": 0,
         "sample": "046pizzicato.scd_2",
         "startAddrsOffset": 2963
@@ -32,7 +32,7 @@
     },
     {
       "generators": {
-        "keyRange": "59-61",
+        "keyRange": "47-49",
         "pan": 0,
         "sample": "046pizzicato.scd_3",
         "startAddrsOffset": 2920
@@ -40,7 +40,7 @@
     },
     {
       "generators": {
-        "keyRange": "62-66",
+        "keyRange": "50-54",
         "pan": 0,
         "sample": "046pizzicato.scd_4",
         "startAddrsOffset": 2890
@@ -48,7 +48,7 @@
     },
     {
       "generators": {
-        "keyRange": "67-69",
+        "keyRange": "55-57",
         "pan": 0,
         "sample": "046pizzicato.scd_5",
         "startAddrsOffset": 2912
@@ -56,7 +56,7 @@
     },
     {
       "generators": {
-        "keyRange": "70-75",
+        "keyRange": "58-63",
         "pan": 0,
         "sample": "046pizzicato.scd_6",
         "startAddrsOffset": 2906
@@ -64,7 +64,7 @@
     },
     {
       "generators": {
-        "keyRange": "76-84",
+        "keyRange": "64-72",
         "pan": 0,
         "sample": "046pizzicato.scd_7",
         "startAddrsOffset": 2892

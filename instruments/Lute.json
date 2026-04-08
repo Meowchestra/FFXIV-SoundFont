@@ -3,12 +3,12 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84"
+        "keyRange": "36-72"
       }
     },
     {
       "generators": {
-        "keyRange": "70-76",
+        "keyRange": "58-64",
         "pan": 0,
         "sample": "026steelguitar.scd_1",
         "startAddrsOffset": 3275
@@ -16,7 +16,7 @@
     },
     {
       "generators": {
-        "keyRange": "63-69",
+        "keyRange": "51-57",
         "pan": 0,
         "sample": "026steelguitar.scd_2",
         "startAddrsOffset": 3200
@@ -24,7 +24,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-62",
+        "keyRange": "36-50",
         "pan": 0,
         "sample": "026steelguitar.scd_3",
         "startAddrsOffset": 3188
@@ -32,7 +32,7 @@
     },
     {
       "generators": {
-        "keyRange": "77-84",
+        "keyRange": "65-72",
         "pan": 0,
         "sample": "026steelguitar.scd_0",
         "startAddrsOffset": 3205

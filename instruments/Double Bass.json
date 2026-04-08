@@ -3,13 +3,13 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84",
+        "keyRange": "24-60",
         "sampleModes": 1
       }
     },
     {
       "generators": {
-        "keyRange": "48-57",
+        "keyRange": "24-33",
         "pan": 0,
         "sample": "044contrabass.scd_0",
         "startAddrsOffset": 106
@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "58-62",
+        "keyRange": "34-38",
         "pan": 0,
         "sample": "044contrabass.scd_1",
         "startAddrsOffset": 111
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "63-69",
+        "keyRange": "39-45",
         "pan": 0,
         "sample": "044contrabass.scd_2",
         "startAddrsOffset": 124
@@ -33,7 +33,7 @@
     },
     {
       "generators": {
-        "keyRange": "70-75",
+        "keyRange": "46-51",
         "pan": 0,
         "sample": "044contrabass.scd_3",
         "startAddrsOffset": 137
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "76-84",
+        "keyRange": "52-60",
         "pan": 0,
         "sample": "044contrabass.scd_4",
         "startAddrsOffset": 231

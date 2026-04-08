@@ -3,12 +3,12 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84"
+        "keyRange": "36-72"
       }
     },
     {
       "generators": {
-        "keyRange": "82-84",
+        "keyRange": "70-72",
         "pan": 0,
         "sample": "029muteguitar.scd_0",
         "startAddrsOffset": 2899
@@ -16,7 +16,7 @@
     },
     {
       "generators": {
-        "keyRange": "70-73",
+        "keyRange": "58-61",
         "pan": 0,
         "sample": "029muteguitar.scd_1",
         "startAddrsOffset": 2648
@@ -24,7 +24,7 @@
     },
     {
       "generators": {
-        "keyRange": "58-61",
+        "keyRange": "46-49",
         "pan": 0,
         "sample": "029muteguitar.scd_2",
         "startAddrsOffset": 2756
@@ -32,7 +32,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-50",
+        "keyRange": "36-38",
         "pan": 0,
         "sample": "029muteguitar.scd_3",
         "startAddrsOffset": 2851
@@ -40,7 +40,7 @@
     },
     {
       "generators": {
-        "keyRange": "78-81",
+        "keyRange": "66-69",
         "pan": 0,
         "sample": "029muteguitar.scd_4",
         "startAddrsOffset": 2901
@@ -48,7 +48,7 @@
     },
     {
       "generators": {
-        "keyRange": "66-69",
+        "keyRange": "54-57",
         "pan": 0,
         "sample": "029muteguitar.scd_5",
         "startAddrsOffset": 2936
@@ -56,7 +56,7 @@
     },
     {
       "generators": {
-        "keyRange": "54-57",
+        "keyRange": "42-45",
         "pan": 0,
         "sample": "029muteguitar.scd_6",
         "startAddrsOffset": 2973
@@ -64,7 +64,7 @@
     },
     {
       "generators": {
-        "keyRange": "74-77",
+        "keyRange": "62-65",
         "pan": 0,
         "sample": "029muteguitar.scd_7",
         "startAddrsOffset": 2889
@@ -72,7 +72,7 @@
     },
     {
       "generators": {
-        "keyRange": "62-65",
+        "keyRange": "50-53",
         "pan": 0,
         "sample": "029muteguitar.scd_8",
         "startAddrsOffset": 2873
@@ -80,7 +80,7 @@
     },
     {
       "generators": {
-        "keyRange": "51-53",
+        "keyRange": "39-41",
         "pan": 0,
         "sample": "029muteguitar.scd_9",
         "startAddrsOffset": 2639

@@ -3,54 +3,54 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84"
+        "keyRange": "36-72"
       }
     },
     {
       "generators": {
-        "keyRange": "48-50",
+        "keyRange": "36-38",
         "pan": 0,
         "sample": "100cymbal_1"
       }
     },
     {
       "generators": {
-        "keyRange": "51-56",
+        "keyRange": "39-44",
         "pan": 0,
         "sample": "100cymbal_2"
       }
     },
     {
       "generators": {
-        "keyRange": "57-62",
+        "keyRange": "45-50",
         "pan": 0,
         "sample": "100cymbal_3"
       }
     },
     {
       "generators": {
-        "keyRange": "63-68",
+        "keyRange": "51-56",
         "pan": 0,
         "sample": "100cymbal_4"
       }
     },
     {
       "generators": {
-        "keyRange": "69-74",
+        "keyRange": "57-62",
         "pan": 0,
         "sample": "100cymbal_5"
       }
     },
     {
       "generators": {
-        "keyRange": "75-80",
+        "keyRange": "63-68",
         "pan": 0,
         "sample": "100cymbal_6"
       }
     },
     {
       "generators": {
-        "keyRange": "81-84",
+        "keyRange": "69-72",
         "pan": 0,
         "sample": "100cymbal_7"
       }

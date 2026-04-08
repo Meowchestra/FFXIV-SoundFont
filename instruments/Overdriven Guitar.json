@@ -3,13 +3,13 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84",
+        "keyRange": "36-72",
         "sampleModes": 1
       }
     },
     {
       "generators": {
-        "keyRange": "59-64",
+        "keyRange": "47-52",
         "pan": 0,
         "sample": "030driveguitar.scd_0",
         "startAddrsOffset": 40
@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "70-78",
+        "keyRange": "58-66",
         "pan": 0,
         "sample": "030driveguitar.scd_1",
         "startAddrsOffset": 86
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "79-84",
+        "keyRange": "67-72",
         "pan": 0,
         "sample": "030driveguitar.scd_2",
         "startAddrsOffset": 146
@@ -33,7 +33,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-58",
+        "keyRange": "36-46",
         "pan": 0,
         "sample": "030driveguitar.scd_3",
         "startAddrsOffset": 128
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "65-69",
+        "keyRange": "53-57",
         "pan": 0,
         "sample": "030driveguitar.scd_4",
         "startAddrsOffset": 122

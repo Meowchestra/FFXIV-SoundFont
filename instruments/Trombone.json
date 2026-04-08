@@ -3,13 +3,13 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84",
+        "keyRange": "36-72",
         "sampleModes": 1
       }
     },
     {
       "generators": {
-        "keyRange": "48-62",
+        "keyRange": "36-50",
         "pan": 0,
         "sample": "058trombone.scd_0",
         "startAddrsOffset": 87
@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "63-67",
+        "keyRange": "51-55",
         "pan": 0,
         "sample": "058trombone.scd_1",
         "startAddrsOffset": 159
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "68-71",
+        "keyRange": "56-59",
         "pan": 0,
         "sample": "058trombone.scd_2",
         "startAddrsOffset": 228
@@ -33,7 +33,7 @@
     },
     {
       "generators": {
-        "keyRange": "72-74",
+        "keyRange": "60-62",
         "pan": 0,
         "sample": "058trombone.scd_3",
         "startAddrsOffset": 80
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "75-84",
+        "keyRange": "63-72",
         "pan": 0,
         "sample": "058trombone.scd_4",
         "startAddrsOffset": 126

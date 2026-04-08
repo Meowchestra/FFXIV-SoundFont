@@ -3,12 +3,12 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84"
+        "keyRange": "36-72"
       }
     },
     {
       "generators": {
-        "keyRange": "72-84",
+        "keyRange": "60-72",
         "pan": 0,
         "sample": "048timpani.scd_0",
         "startAddrsOffset": 2940
@@ -16,7 +16,7 @@
     },
     {
       "generators": {
-        "keyRange": "64-71",
+        "keyRange": "52-59",
         "pan": 0,
         "sample": "048timpani.scd_1",
         "startAddrsOffset": 2900
@@ -24,7 +24,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-63",
+        "keyRange": "36-51",
         "pan": 0,
         "sample": "048timpani.scd_2",
         "startAddrsOffset": 2947

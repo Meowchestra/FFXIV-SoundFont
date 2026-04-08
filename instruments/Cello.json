@@ -3,13 +3,13 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84",
+        "keyRange": "36-72",
         "sampleModes": 1
       }
     },
     {
       "generators": {
-        "keyRange": "48-53",
+        "keyRange": "36-41",
         "pan": 0,
         "sample": "043cello.scd_0",
         "startAddrsOffset": 597
@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "54-61",
+        "keyRange": "42-49",
         "pan": 0,
         "sample": "043cello.scd_1",
         "startAddrsOffset": 111
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "62-69",
+        "keyRange": "50-57",
         "pan": 0,
         "sample": "043cello.scd_2",
         "startAddrsOffset": 191
@@ -33,7 +33,7 @@
     },
     {
       "generators": {
-        "keyRange": "70-75",
+        "keyRange": "58-63",
         "pan": 0,
         "sample": "043cello.scd_3",
         "startAddrsOffset": 134
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "76-84",
+        "keyRange": "64-72",
         "pan": 0,
         "sample": "043cello.scd_4",
         "startAddrsOffset": 227

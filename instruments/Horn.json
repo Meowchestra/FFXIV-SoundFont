@@ -3,13 +3,13 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84",
+        "keyRange": "36-72",
         "sampleModes": 1
       }
     },
     {
       "generators": {
-        "keyRange": "70-84",
+        "keyRange": "58-72",
         "pan": 0,
         "sample": "061frenchhorn.scd_1",
         "startAddrsOffset": 101
@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "66-69",
+        "keyRange": "54-57",
         "pan": 0,
         "sample": "061frenchhorn.scd_2",
         "startAddrsOffset": 45
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "57-62",
+        "keyRange": "45-50",
         "pan": 0,
         "sample": "061frenchhorn.scd_3",
         "startAddrsOffset": 92
@@ -33,7 +33,7 @@
     },
     {
       "generators": {
-        "keyRange": "63-65",
+        "keyRange": "51-53",
         "pan": 0,
         "sample": "061frenchhorn.scd_4",
         "startAddrsOffset": 167
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-56",
+        "keyRange": "36-44",
         "pan": 0,
         "sample": "061frenchhorn.scd_0",
         "startAddrsOffset": 60

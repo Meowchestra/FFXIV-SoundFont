@@ -3,12 +3,12 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84"
+        "keyRange": "24-60"
       }
     },
     {
       "generators": {
-        "keyRange": "72-84",
+        "keyRange": "48-60",
         "pan": 0,
         "sample": "098bd.scd_1",
         "startAddrsOffset": 2016
@@ -16,7 +16,7 @@
     },
     {
       "generators": {
-        "keyRange": "55-65",
+        "keyRange": "31-41",
         "pan": 0,
         "sample": "098bd.scd_2",
         "startAddrsOffset": 2819
@@ -24,7 +24,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-54",
+        "keyRange": "24-30",
         "pan": 0,
         "sample": "098bd.scd_3",
         "startAddrsOffset": 3131
@@ -32,7 +32,7 @@
     },
     {
       "generators": {
-        "keyRange": "66-71",
+        "keyRange": "42-47",
         "pan": 0,
         "sample": "098bd.scd_0",
         "startAddrsOffset": 2422

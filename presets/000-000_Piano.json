@@ -13,7 +13,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-84",
+        "keyRange": "60-96",
         "instrument": "Piano"
       }
     }

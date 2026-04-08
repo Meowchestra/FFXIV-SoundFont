@@ -3,13 +3,13 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84",
+        "keyRange": "24-60",
         "sampleModes": 1
       }
     },
     {
       "generators": {
-        "keyRange": "48-58",
+        "keyRange": "24-34",
         "pan": 0,
         "sample": "059tuba.scd_0",
         "startAddrsOffset": 138
@@ -17,7 +17,7 @@
     },
     {
       "generators": {
-        "keyRange": "62-66",
+        "keyRange": "38-42",
         "pan": 0,
         "sample": "059tuba.scd_1",
         "startAddrsOffset": 48
@@ -25,7 +25,7 @@
     },
     {
       "generators": {
-        "keyRange": "72-76",
+        "keyRange": "48-52",
         "pan": 0,
         "sample": "059tuba.scd_2",
         "startAddrsOffset": 124
@@ -33,7 +33,7 @@
     },
     {
       "generators": {
-        "keyRange": "67-71",
+        "keyRange": "43-47",
         "pan": 0,
         "sample": "059tuba.scd_3",
         "startAddrsOffset": 57
@@ -41,7 +41,7 @@
     },
     {
       "generators": {
-        "keyRange": "77-84",
+        "keyRange": "53-60",
         "pan": 0,
         "sample": "059tuba.scd_4",
         "startAddrsOffset": 128
@@ -49,7 +49,7 @@
     },
     {
       "generators": {
-        "keyRange": "59-61",
+        "keyRange": "35-37",
         "pan": 0,
         "sample": "059tuba.scd_5",
         "startAddrsOffset": 88

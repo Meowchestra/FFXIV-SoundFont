@@ -3,12 +3,12 @@
   "zones": [
     {
       "generators": {
-        "keyRange": "48-84"
+        "keyRange": "60-96"
       }
     },
     {
       "generators": {
-        "keyRange": "64-68",
+        "keyRange": "76-80",
         "pan": 0,
         "sample": "001grandpiano.scd_3",
         "startAddrsOffset": 3058
@@ -16,7 +16,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-63",
+        "keyRange": "60-75",
         "pan": 0,
         "sample": "001grandpiano.scd_4",
         "startAddrsOffset": 3056
@@ -24,7 +24,7 @@
     },
     {
       "generators": {
-        "keyRange": "78-84",
+        "keyRange": "90-96",
         "pan": 0,
         "sample": "001grandpiano.scd_0",
         "startAddrsOffset": 3047
@@ -32,7 +32,7 @@
     },
     {
       "generators": {
-        "keyRange": "69-73",
+        "keyRange": "81-85",
         "pan": 0,
         "sample": "001grandpiano.scd_1",
         "startAddrsOffset": 3087
@@ -40,7 +40,7 @@
     },
     {
       "generators": {
-        "keyRange": "74-77",
+        "keyRange": "86-89",
         "pan": 0,
         "sample": "001grandpiano.scd_2",
         "startAddrsOffset": 3047

@@ -13,7 +13,7 @@
     },
     {
       "generators": {
-        "keyRange": "48-84",
+        "keyRange": "24-60",
         "instrument": "Double Bass"
       }
     }
